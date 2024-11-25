@@ -1,4 +1,4 @@
-export default {
+export default module = {
   "env": {
     "browser": true,
     "es6": true,
