@@ -1,3 +1,4 @@
+const module = CommonJS.module
 module.exports = {
   "env": {
     "browser": true,
