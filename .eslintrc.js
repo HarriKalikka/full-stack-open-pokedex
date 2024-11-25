@@ -47,5 +47,3 @@ module = {
     "react/prop-types": 0
   }
 }
-
-export default module
