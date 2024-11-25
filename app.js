@@ -1,5 +1,6 @@
 import express, { statica } from 'express'
 const app = express()
+var process = NodeJS.process
 
 // get the port from env variable
 const PORT = process.env.PORT || 5000
