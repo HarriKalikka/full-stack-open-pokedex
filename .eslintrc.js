@@ -1,4 +1,5 @@
-module = {
+export default [ 
+{
   "env": {
     "browser": true,
     "es6": true,
@@ -47,3 +48,4 @@ module = {
     "react/prop-types": 0
   }
 }
+]
