@@ -1,16 +1,8 @@
-import globals from 'globals';
-
-export default [
-  {
-  languageOptions: {
-      ecmaVersion: 2018,
-      sourceType: "module",
-      globals: {
-          ...globals.browser,
-          ...globals.es6,
-          ...globals.jest
-          myCustomGlobal: "readonly"
-      }
+module.exports = {
+  "env": {
+    "browser": true,
+    "es6": true,
+    "jest/globals": true
   },
   "extends": [
     "eslint:recommended",
@@ -20,6 +12,8 @@ export default [
     "ecmaFeatures": {
       "jsx": true
     },
+    "ecmaVersion": 2018,
+    "sourceType": "module"
   },
   "plugins": [
     "react", "jest"
@@ -52,5 +46,4 @@ export default [
     "no-console": "error",
     "react/prop-types": 0
   }
-  }
-];
+}
