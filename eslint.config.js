@@ -45,6 +45,6 @@ export default [
     },
   },
   { 
-    ignores: ["dist/**", "build/**", 'app.js', 'useApi.js', 'eslint.config.js'],
+    ignores: ["dist/**", "build/**", 'app.js', 'src/useApi.js', 'eslint.config.js'],
   },
 ]
